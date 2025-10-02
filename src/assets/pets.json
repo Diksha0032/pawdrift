@@ -1,0 +1,76 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Dogesh",
+      "type": "Dog",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "gender": "Male",
+      "location": "Mumbai",
+      "vaccinated": "Yes",
+      "image": "/images/pet3.jpg",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "name": "Lucy",
+      "type": "Cat",
+      "breed": "Persian",
+      "age": 2,
+      "gender": "Female",
+      "location": "Delhi",
+      "vaccinated": "Yes",
+      "image": "/images/cat1.jpg",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "type": "Dog",
+      "breed": "Beagle",
+      "age": 4,
+      "gender": "Male",
+      "location": "Bangalore",
+      "vaccinated": "No",
+      "image": "/images/pet2.jpg",
+      "status": "Pending"
+    },
+    {
+      "id": "4",
+      "name": "Luna",
+      "type": "Cat",
+      "breed": "Siamese",
+      "age": 1,
+      "gender": "Female",
+      "location": "Pune",
+      "vaccinated": "Yes",
+      "image": "/images/cats2.webp",
+      "status": "Available"
+    },
+    {
+      "id": "5",
+      "name": "Max",
+      "type": "Dog",
+      "breed": "Husky",
+      "age": 2,
+      "gender": "Male",
+      "location": "Hyderabad",
+      "vaccinated": "Yes",
+      "image": "/images/pet1.jpg",
+      "status": "Available"
+    },
+    {
+      "id": "6",
+      "name": "Daisy",
+      "type": "Cat",
+      "breed": "Maine Coon",
+      "age": 3,
+      "gender": "Female",
+      "location": "Chennai",
+      "vaccinated": "No",
+      "image": "/images/cats3.webp",
+      "status": "Pending"
+    }
+  ]
+}
