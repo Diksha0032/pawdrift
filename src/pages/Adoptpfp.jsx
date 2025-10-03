@@ -21,9 +21,6 @@ const Adoptpfp = () => {
   
     const handleSubmit = (e) => {
     e.preventDefault();
-    const existing=JSON.parse(localStorage.getItem("adoptions")) || [];
-
-    localStorage.setItem("adoptions",JSON.stringify([...existing,{...formData,petId:pet.id}]))
 
     setFormData({name:"",email:"",phone:"",address:""})
 
@@ -36,13 +33,13 @@ const Adoptpfp = () => {
 
 
     return (
-      <div className=" bg-amber-300 flex flex-col lg:flex-row gap-10 p-5">
+      <div className="border-gray text-white font-bold bg-amber-300 flex flex-col lg:flex-row gap-10 p-5">
         <div className="lg:w-1/2">
         <h1 className="text-3xl">{pet.name}</h1>
         <img 
         src={pet.image}
         alt={pet.name}
-        className="w-50 h-50 object-cover m-4"/>
+        className="w-50 h-50 object-cover mb-2 mt-4"/>
         <p>Breed: {pet.breed}</p>
         <p>Age: {pet.age}</p>
         <p>Gender: {pet.gender}</p>

@@ -21,11 +21,6 @@ const Rescue = () => {
   
     const handleSubmit = (e) => {
     e.preventDefault();
-    const existing=JSON.parse(localStorage.getItem("rescuedPet")) || [];
-
-    localStorage.setItem("rescuedPet",JSON.stringify([...existing,{...formData,id:Date.now
-      ()
-    }]))
 
     setFormData({name:"",
     age:"",
@@ -39,7 +34,7 @@ const Rescue = () => {
     }
 
     return (
-      <div className="bg-amber-300 p-5 flex flex-col justify-center">
+      <div className="font-semibold border-gray text-white bg-amber-300 p-5 flex flex-col justify-center">
         <div><h2 className="text-2xl mt-10 mb-3text-center">Submit rescued pet for adoption</h2>
         </div>
         <div>

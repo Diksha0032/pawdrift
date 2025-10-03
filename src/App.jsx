@@ -11,10 +11,14 @@ import Landingpage from './pages/Landingpage'
 import Adopt from './pages/Adopt'
 import Adoptpfp from './pages/adoptpfp'
 import Rescue from './pages/Rescue'
+import Dukan from './pages/Dukan';
+import Saman from "./pages/Saman";
 
 function App() {
-
+    const [cart, setCart] = useState([]);
   return (
+
+
     <Router>
       <Navbar />
       <Routes>
@@ -22,6 +26,8 @@ function App() {
         <Route path="/adopt" element={<Adopt />} />
         <Route path="/adopt/:id" element={<Adoptpfp />} />
         <Route path="/rescue" element={<Rescue />} />
+        <Route path='/shop' element={<Dukan cart={cart} setCart={setCart}/>} />
+        <Route path='/cart' element={<Saman cart={cart} setCart={setCart}/>} />
       </Routes>
       
     </Router>
@@ -29,4 +35,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
