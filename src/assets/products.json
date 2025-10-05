@@ -1,115 +1,30 @@
 {
   "products": [
     {
-      "id": 201,
-      "name": "Royal Canin Dog Food (Adult – 3kg)",
-      "category": "Food",
-      "description": "Balanced dry food for adult dogs, enriched with protein, vitamins, and minerals.",
-      "price": 1899,
-      "stock": 80,
-      "rating": 4.8,
-      "images": [
-        "https://via.placeholder.com/300x200?text=Royal+Canin+3kg+Front",
-        "https://via.placeholder.com/300x200?text=Royal+Canin+3kg+Back"
-      ],
-      "tags": [
-        "dog",
-        "food",
-        "dry",
-        "adult"
-      ]
-    },
-    {
-      "id": 204,
-      "name": "Furminator Deshedding Tool (Large Dog)",
-      "category": "Grooming",
-      "description": "Reduces loose hair up to 90%. Stainless steel edge reaches through topcoat safely.",
-      "price": 2499,
-      "stock": 35,
-      "rating": 4.9,
-      "images": [
-        "https://via.placeholder.com/300x200?text=Furminator+Tool"
-      ],
-      "tags": [
-        "dog",
-        "grooming",
-        "deshedding",
-        "tool"
-      ]
-    },
-    {
-      "id": 205,
-      "name": "Trixie Cat Litter Tray with Rim",
-      "category": "Hygiene",
-      "description": "Durable litter tray with removable rim to prevent litter spill.",
-      "price": 799,
-      "stock": 60,
-      "rating": 4.5,
-      "images": [
-        "https://via.placeholder.com/300x200?text=Cat+Litter+Tray"
-      ],
-      "tags": [
-        "cat",
-        "litter",
-        "tray",
-        "hygiene"
-      ]
-    },
-    {
-      "id": 207,
-      "name": "Savic Dog Crate (Medium)",
-      "category": "Crates & Carriers",
-      "description": "Foldable metal crate with double doors, removable tray and carrying handle.",
-      "price": 4999,
-      "stock": 20,
-      "rating": 4.8,
-      "images": [
-        "https://via.placeholder.com/300x200?text=Savic+Dog+Crate"
-      ],
-      "tags": [
-        "dog",
-        "crate",
-        "training",
-        "metal"
-      ]
-    },
-    {
-      "id": 211,
-      "name": "Trixie Premium Dog Chain Leash (Steel – 120cm)",
+      "id": 212,
+      "name": "Dog Leather Neckband – Medium",
       "category": "Accessories",
-      "description": "Durable chrome-plated steel chain leash with padded handle for comfort and control during walks.",
-      "price": 999,
-      "stock": 40,
+      "description": "Premium leather dog neckband with adjustable buckle for comfort and durability.",
+      "price": 599,
+      "stock": 50,
+      "rating": 4.6,
+      "images": [
+        "Collars.webp"
+      ],
+      "tags": ["dog", "neckband", "leather", "accessories"]
+    },
+    {
+      "id": 213,
+      "name": "Pedigree Dentastix Dog Treats (Small – 30pcs)",
+      "category": "Food",
+      "description": "Dental chews for dogs to help reduce tartar buildup and keep teeth healthy.",
+      "price": 499,
+      "stock": 100,
       "rating": 4.7,
       "images": [
-        "https://via.placeholder.com/300x200?text=Chain+Leash+View+A",
-        "https://via.placeholder.com/300x200?text=Chain+Leash+View+B"
+        "pro.jpg"
       ],
-      "tags": [
-        "dog",
-        "leash",
-        "chain",
-        "walk",
-        "steel"
-      ]
-    },
-    {
-      "id": 209,
-      "name": "PetsPot Double Stainless Steel Feeding Bowl",
-      "category": "Bowls & Feeders",
-      "description": "Anti-skid stainless steel feeding bowl for dogs & cats, easy to clean.",
-      "price": 649,
-      "stock": 75,
-      "rating": 4.5,
-      "images": [
-        "https://via.placeholder.com/300x200?text=Double+Feeding+Bowl"
-      ],
-      "tags": [
-        "dog",
-        "cat",
-        "bowl",
-        "feeder"
-      ]
+      "tags": ["dog", "treat", "biscuits", "food"]
     }
   ]
 }
