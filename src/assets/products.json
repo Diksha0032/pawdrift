@@ -9,7 +9,7 @@
       "stock": 50,
       "rating": 4.6,
       "images": [
-        "Collars.webp"
+        "/images/Collars.webp"
       ],
       "tags": ["dog", "neckband", "leather", "accessories"]
     },
@@ -22,7 +22,7 @@
       "stock": 100,
       "rating": 4.7,
       "images": [
-        "pro.jpg"
+        "/images/pro.jpg"
       ],
       "tags": ["dog", "treat", "biscuits", "food"]
     }
