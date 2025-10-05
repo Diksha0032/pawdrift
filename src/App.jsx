@@ -8,10 +8,10 @@ import Hkb from './components/Hkb'
 import Petcard from './components/Petcard'
 import petsData from "./assets/pets.json"
 import Landingpage from '../pages/Landingpage'
-import Adopt from '../pages/Adopt'
-import Adoptpfp from '../pages/adoptpfp'
+import Adopt from './pages/Adopt'
+import Adoptpfp from './pages/Adoptpfp'
 import Rescue from '../pages/Rescue'
-import Dukan from '../pages/Dukan';
+import Dukan from './pages/Dukan';
 import Saman from "../pages/Saman";
 
 function App() {
