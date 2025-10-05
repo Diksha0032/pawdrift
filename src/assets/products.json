@@ -9,10 +9,15 @@
       "stock": 80,
       "rating": 4.8,
       "images": [
-        "/images/products/royal-canin-3kg.jpg",
-        "/images/products/royal-canin-3kg-back.jpg"
+        "https://via.placeholder.com/300x200?text=Royal+Canin+3kg+Front",
+        "https://via.placeholder.com/300x200?text=Royal+Canin+3kg+Back"
       ],
-      "tags": ["dog", "food", "dry", "adult"]
+      "tags": [
+        "dog",
+        "food",
+        "dry",
+        "adult"
+      ]
     },
     {
       "id": 204,
@@ -23,9 +28,14 @@
       "stock": 35,
       "rating": 4.9,
       "images": [
-        "/images/products/furminator-large.jpg"
+        "https://via.placeholder.com/300x200?text=Furminator+Tool"
       ],
-      "tags": ["dog", "grooming", "deshedding", "tool"]
+      "tags": [
+        "dog",
+        "grooming",
+        "deshedding",
+        "tool"
+      ]
     },
     {
       "id": 205,
@@ -36,9 +46,14 @@
       "stock": 60,
       "rating": 4.5,
       "images": [
-        "/images/products/trixie-litter.jpg"
+        "https://via.placeholder.com/300x200?text=Cat+Litter+Tray"
       ],
-      "tags": ["cat", "litter", "tray", "hygiene"]
+      "tags": [
+        "cat",
+        "litter",
+        "tray",
+        "hygiene"
+      ]
     },
     {
       "id": 207,
@@ -49,25 +64,35 @@
       "stock": 20,
       "rating": 4.8,
       "images": [
-        "/images/products/savic-crate.jpg"
+        "https://via.placeholder.com/300x200?text=Savic+Dog+Crate"
       ],
-      "tags": ["dog", "crate", "training", "metal"]
+      "tags": [
+        "dog",
+        "crate",
+        "training",
+        "metal"
+      ]
     },
     {
-  "id": 211,
-  "name": "Trixie Premium Dog Chain Leash (Steel – 120cm)",
-  "category": "Accessories",
-  "description": "Durable chrome-plated steel chain leash with padded handle for comfort and control during walks.",
-  "price": 999,
-  "stock": 40,
-  "rating": 4.7,
-  "images": [
-    "/images/products/trixie-chain-leash-1.jpg",
-    "/images/products/trixie-chain-leash-2.jpg"
-  ],
-  "tags": ["dog", "leash", "chain", "walk", "steel"]
-}
-,
+      "id": 211,
+      "name": "Trixie Premium Dog Chain Leash (Steel – 120cm)",
+      "category": "Accessories",
+      "description": "Durable chrome-plated steel chain leash with padded handle for comfort and control during walks.",
+      "price": 999,
+      "stock": 40,
+      "rating": 4.7,
+      "images": [
+        "https://via.placeholder.com/300x200?text=Chain+Leash+View+A",
+        "https://via.placeholder.com/300x200?text=Chain+Leash+View+B"
+      ],
+      "tags": [
+        "dog",
+        "leash",
+        "chain",
+        "walk",
+        "steel"
+      ]
+    },
     {
       "id": 209,
       "name": "PetsPot Double Stainless Steel Feeding Bowl",
@@ -77,9 +102,14 @@
       "stock": 75,
       "rating": 4.5,
       "images": [
-        "/images/products/petspot-bowl.jpg"
+        "https://via.placeholder.com/300x200?text=Double+Feeding+Bowl"
       ],
-      "tags": ["dog", "cat", "bowl", "feeder"]
+      "tags": [
+        "dog",
+        "cat",
+        "bowl",
+        "feeder"
+      ]
     }
   ]
 }
