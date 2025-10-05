@@ -12,7 +12,6 @@ const Navbar = () => {
         <Link to="/adopt" >Adopt</Link></h2>
       <h2 className="font-semibold cursor-pointer hover:text-amber-700"><Link to="/rescue">Rescue</Link></h2>
       <h2 className="font-semibold cursor-pointer hover:text-amber-700"><Link to="/shop">Shop</Link></h2>
-      <h2 className="font-semibold cursor-pointer hover:text-amber-700">Profile</h2>
     </div>
     </nav>
     </>
