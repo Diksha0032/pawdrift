@@ -5,7 +5,7 @@ import "swiper/css";
 
 const Hkb = () => {
   return (
-    <section className="w-full h-[60vh] md:h-[85vh] bg-amber-200 overflow-hidden">
+    <section className="w-full h-[50vh] md:h-auto bg-amber-200 overflow-hidden">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={20}
