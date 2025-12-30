@@ -43,14 +43,14 @@ const Rescue = () => {
           value={formData.name}
           onChange={handleChange}
           required
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <input 
           name="age"
           placeholder="age"
           value={formData.age}
           onChange={handleChange}
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <input 
           name="breed"
@@ -65,28 +65,28 @@ const Rescue = () => {
           value={formData.rescuedBy}
           onChange={handleChange}
           required
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <input 
           name="ngo"
           placeholder="ngo name (opt)"
           value={formData.ngo}
           onChange={handleChange}
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <input 
           name="contactinfo"
           placeholder="contact info"
           value={formData.contactInfo}
           onChange={handleChange}
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <textarea 
           name="story"
           placeholder="tell about how you rescued the pet"
           value={formData.story}
           onChange={handleChange}
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <button 
           type="submit"
