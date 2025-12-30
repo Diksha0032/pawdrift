@@ -5,7 +5,7 @@ import "swiper/css";
 
 const Hkb = () => {
   return (
-    <section className="w-full h-[50vh] md:h-auto bg-amber-200 overflow-hidden">
+    <section className="w-full sm:h-[50vh] md:h-auto lg:h-auto bg-amber-200 overflow-hidden pt-14 md:pt-16">
       <Swiper
         modules={[Autoplay]}
         spaceBetween={20}
@@ -14,7 +14,7 @@ const Hkb = () => {
         className="w-full h-full"
       >
         <SwiperSlide>
-          <div className="bg-amber-300 mt-3 p-3 w-full h-full relative text-bottom">
+          <div className="bg-amber-300 w-full h-full relative text-bottom">
             <img src="/images/hkbfirst.jpg" alt="" />
             <h3 className="bottom-6 left-6 text-white text-bottom">Why </h3>
             <p className="bg-amber-300cbottom-6 left-6 text-white text-bottom">Adopt </p>
