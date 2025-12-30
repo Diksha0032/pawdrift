@@ -58,7 +58,7 @@ const Adoptpfp = () => {
           value={formData.name}
           onChange={handleChange}
           required
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <input 
           name="email"
@@ -67,7 +67,7 @@ const Adoptpfp = () => {
           value={formData.email}
           onChange={handleChange}
           required
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <input 
           name="phone"
@@ -76,7 +76,7 @@ const Adoptpfp = () => {
           value={formData.phone}
           onChange={handleChange}
           required
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <textarea 
           name="address"
@@ -84,7 +84,7 @@ const Adoptpfp = () => {
           value={formData.address}
           onChange={handleChange}
           required
-          className="border p-2 rounded"
+          className="border border-white-500 text-white-500 p-2 rounded"
           />
           <button 
           type="submit"
