@@ -34,7 +34,7 @@ const Rescue = () => {
     }
 
     return (
-      <div className="min-h-screen font-semibold border-gray text-white bg-amber-300 p-5 flex flex-col justify-center">
+      <div className="min-h-screen font-semibold border-gray text-white bg-amber-300 p-5 flex flex-col items-center">
         <div className="w-full max-w-md"><h2 className="text-2xl mt-10 mb-3text-center">Submit rescued pet for adoption</h2>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4 mt-3">
           <input 
