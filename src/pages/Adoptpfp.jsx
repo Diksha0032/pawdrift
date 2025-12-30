@@ -33,7 +33,7 @@ const Adoptpfp = () => {
 
 
     return (
-      <div className="border-gray text-white font-bold bg-amber-300 flex flex-col lg:flex-row gap-10 p-5">
+      <div className="border-white-500 text-white-500 font-bold bg-amber-300 flex flex-col lg:flex-row gap-10 p-5">
         <div className="lg:w-1/2">
         <h1 className="text-3xl">{pet.name}</h1>
         <img 
